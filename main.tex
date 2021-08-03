@@ -1,0 +1,71 @@
+\documentclass[msc,brasil]{Estilos/coppe}
+%\usepackage[utf8]{inputenc}
+\usepackage{Estilos/comentario}
+
+
+\include{pacotesLF}
+\include{Estilos/comandos}
+
+\usepackage[citestyle=authoryear,articlein=false,style=ext-authoryear-comp,natbib=true]{biblatex}
+
+%\usepackage{biblatex}
+\addbibresource{biblatex.bib}
+\addbibresource{bibwiki.bib}
+
+
+\begin{document}
+
+\title{Qualquer um pode editar, mas o que pode ser editado?
+Controvérsias entre qualidade e abertura no fazer da Wikipédia}
+\foreigntitle{Título em inglês}
+\author{Henrique Rabelo de}{Andrade}
+\advisor{Prof.}{Henrique Luiz}{Cukierman}{D.Sc.}
+
+\examiner{Prof.}{Henrique Luiz Cukierman}{D.Sc. (Presidente)}
+\examiner{Prof.}{membro banca 2}{Ph.D.}
+\examiner{Prof.}{membro banca 3}{Ph.D.}
+
+\department{PESC}
+\date{10}{2021}
+
+\keyword{Wikipédia}
+\keyword{Ciências-Tecnologias-Sociedades}
+\keyword{Produção colaborativa}
+
+\maketitle
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+\printlosymbols
+\printloabbreviations
+
+\mainmatter
+\doublespacing
+
+\include{chaps/agradecimento}
+\include{chaps/resumo}
+\include{chaps/abstract}
+
+%capítulo 1: cenas
+%\include{chaps/cenas}
+%capítulo 2: mantendo a mente quieta
+%\include{chaps/mantendo}
+
+%novo capítulo 1: introdução
+\include{chaps/introducao}
+
+%capítulo 2: de dentro para fora
+\include{chaps/dedentroparafora}
+%capítulo 3: de fora para dentro
+\include{chaps/deforaparadentro}
+%capítulo 4: afinando o instrumento
+\include{chaps/afinando}
+
+%\backmatter
+
+\printbibliography
+
+\appendix
+
+\end{document}
