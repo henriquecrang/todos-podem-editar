@@ -412,7 +412,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \abstract@toptext\par
   \vspace*{8.6mm}
   \begin{center}
-    \sloppy\nohyphens{\MakeUppercase\foreign@title}\par
+    \sloppy\nohyphens{\MakeUppercase\local@title}\par
     \vspace*{13.2mm}
     \@authname\ \@authsurn \par
     \vspace*{7mm}
@@ -450,7 +450,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \foreignabstract@toptext\par
   \vspace*{8.6mm}
   \begin{center}
-    \sloppy\nohyphens{\MakeUppercase\local@title}\par
+    \sloppy\nohyphens{\MakeUppercase\foreign@title}\par
     \vspace*{13.2mm}
     \@authname\ \@authsurn \par
     \vspace*{7mm}
@@ -721,4 +721,4 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 
 
 %% criando estilo para citação da Wikipédia
-\def\citewiki#1{(\citeauthor{#1}, ``\citetitle{#1}'', \citedate{#1})
+\def\citewiki#1{(\citeauthor{#1}, ``\citetitle{#1}'', \citedate{#1})}
