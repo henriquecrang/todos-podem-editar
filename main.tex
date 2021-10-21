@@ -1,6 +1,6 @@
-\documentclass[msc,brasil]{Estilos/coppe}
+\documentclass[msc]{Estilos/coppe}
 %\usepackage[utf8]{inputenc}
-\usepackage{Estilos/comentario}
+%\usepackage{Estilos/comentario}
 
 
 \include{pacotesLF}
@@ -17,7 +17,7 @@
 
 \title{Qualquer um pode editar, mas o que pode ser editado?
 Controvérsias entre qualidade e abertura no fazer da Wikipédia}
-\foreigntitle{Título em inglês}
+\foreigntitle{Anyone can edit, but what can be edited? Controversies in quality and openess in building Wikipedia}
 \author{Henrique Rabelo de}{Andrade}
 \advisor{Prof.}{Henrique Luiz}{Cukierman}{D.Sc.}
 
@@ -57,6 +57,12 @@ Controvérsias entre qualidade e abertura no fazer da Wikipédia}
 
 %capítulo 2: de dentro para fora
 \include{chaps/dedentroparafora}
+
+\include{chaps/DeDentro/eraumavez}
+\include{chaps/DeDentro/comosaocriadas}
+\include{chaps/DeDentro/ComoSaoCriadas/ojuiz}
+
+
 %capítulo 3: de fora para dentro
 \include{chaps/deforaparadentro}
 %capítulo 4: afinando o instrumento
@@ -64,8 +70,10 @@ Controvérsias entre qualidade e abertura no fazer da Wikipédia}
 
 %\backmatter
 
-\printbibliography
 
+\label{bib:begin}
+\printbibliography
+\label{bib:end}
 \appendix
 
 \end{document}
